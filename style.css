@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body {
+  background: white;
+  color: black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+
+  button {
+    width: 211px;
+    height: 60px;
+    background-color: #ff7143;
+  }
+  .headerNav {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.hero {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.5px;
+  }
+  p {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+  }
+
+  button {
+    margin-top: 50px;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    text-align: center;
+    color: #5454d4;
+  }
+  .img {
+    width: 610;
+    height: 644;
+    top: 190px;
+    left: 720px;
+  }
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.index {
+  margin-top: 70px;
+  display: flex;
+  gap: 260px;
+  align-items: center;
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+  }
+  p {
+    margin-top: 50px;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+  }
+  button {
+    margin-top: 50px;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    color: #5454d4;
+  }
+}
+.img {
+  width: 348.5;
+  height: 473;
+  top: 1132px;
+  left: 184px;
+}
+.in {
+  margin-top: 70px;
+  display: flex;
+  gap: 260px;
+  align-items: center;
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+  }
+  p {
+    margin-top: 50px;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+  }
+  button {
+    margin-top: 50px;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    color: #5454d4;
+  }
+}
+.card {
+    margin: 90px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+.benchmarks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    width: 268px;
+    height: 246px;
+    border-radius: 5px;
+}  
+}
+.plan {
+font-weight: 700;
+font-size: 60px;
+line-height: 70px;
+color:  #19191B;
+}
+.buttons {
+ display: flex;
+ padding: 24px;
+ justify-content: end;
+ align-items: end;
+ padding: 10px 30px;
+border: none;
+border-radius: 10px;
+
+.rigtBtn {
+ padding: 24px;
+ width: 160;
+height: 55;
+top: 5px;
+left: 8px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+background: #5454D4;
+color: azure;
+}
+.liftBtn {
+ padding: 24px;
+ width: 160;
+height: 55;
+top: 5px;
+left: 8px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+background: #F7F7FB;
+color:#19191B;
+}
+}
+
+.footer {
+ margin: 90px 0;
+ display: flex;
+ gap: 30px;
+ justify-content: space-between;
+  
+Starter {
+ width: 330;
+height: 441px
+border-radius: 10px;
+button {
+ width: 285;
+height: 60;
+top: 354px;
+left: 24px;
+}
+}
+Premium {
+ width: 376;
+height: 473;
+border-radius: 10px;
+color: #FF7143;
+button {
+ width: 305;
+height: 60;
+top: 370px;
+left: 37px;
+}
+}
+.Enterprise {
+ width: 330;
+height: 441;
+top: 2896px;
+left: 924px;
+button {
+ width: 285;
+height: 60;
+top: 354px;
+left: 24px;
+}
+}
+}
