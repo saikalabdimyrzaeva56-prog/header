@@ -13,6 +13,7 @@ body {
   background: white;
   color: black;
 }
+
 a {
   color: black;
   text-decoration: none;
@@ -29,6 +30,7 @@ a {
     height: 60px;
     background-color: #ff7143;
   }
+
   .headerNav {
     display: flex;
     gap: 30px;
@@ -47,6 +49,7 @@ a {
     line-height: 77px;
     letter-spacing: -2.5px;
   }
+
   p {
     margin-top: 50px;
     font-weight: 400;
@@ -64,9 +67,10 @@ a {
     text-align: center;
     color: #5454d4;
   }
+
   .img {
-    width: 610;
-    height: 644;
+    width: 610px;
+    height: 644px;
     top: 190px;
     left: 720px;
   }
@@ -78,16 +82,19 @@ a {
   padding: 20px;
   justify-content: space-between;
 }
+
 .index {
   margin-top: 70px;
   display: flex;
   gap: 260px;
   align-items: center;
+
   h1 {
     font-weight: 700;
     font-size: 50px;
     line-height: 57px;
   }
+
   p {
     margin-top: 50px;
     font-family: Mulish;
@@ -96,6 +103,7 @@ a {
     line-height: 30px;
     letter-spacing: -0.63px;
   }
+
   button {
     margin-top: 50px;
     font-family: DM Sans;
@@ -105,23 +113,27 @@ a {
     color: #5454d4;
   }
 }
+
 .img {
-  width: 348.5;
-  height: 473;
+  width: 348.5px;
+  height: 473px;
   top: 1132px;
   left: 184px;
 }
+
 .in {
   margin-top: 70px;
   display: flex;
   gap: 260px;
   align-items: center;
+
   h1 {
     font-weight: 700;
     font-size: 50px;
     line-height: 57px;
     letter-spacing: -1.56px;
   }
+
   p {
     margin-top: 50px;
     font-family: Mulish;
@@ -130,6 +142,7 @@ a {
     line-height: 30px;
     letter-spacing: -0.63px;
   }
+
   button {
     margin-top: 50px;
     font-family: DM Sans;
@@ -139,12 +152,14 @@ a {
     color: #5454d4;
   }
 }
+
 .card {
-    margin: 90px 0;
+  margin: 90px 0;
   display: flex;
   gap: 30px;
   justify-content: center;
-.benchmarks {
+
+  .benchmarks {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,86 +167,93 @@ a {
     width: 268px;
     height: 246px;
     border-radius: 5px;
-}  
+  }
 }
-.plan {
-font-weight: 700;
-font-size: 60px;
-line-height: 70px;
-color:  #19191B;
-}
-.buttons {
- display: flex;
- padding: 24px;
- justify-content: end;
- align-items: end;
- padding: 10px 30px;
-border: none;
-border-radius: 10px;
 
-.rigtBtn {
- padding: 24px;
- width: 160;
-height: 55;
-top: 5px;
-left: 8px;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-background: #5454D4;
-color: azure;
+.plan {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #19191b;
 }
-.liftBtn {
- padding: 24px;
- width: 160;
-height: 55;
-top: 5px;
-left: 8px;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-background: #F7F7FB;
-color:#19191B;
-}
+
+.buttons {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: end;
+  align-items: end;
+  border: none;
+  border-radius: 10px;
+
+  .rigtBtn {
+    padding: 24px;
+    width: 160px;
+    height: 55px;
+    top: 5px;
+    left: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #5454d4;
+    color: azure;
+  }
+
+  .liftBtn {
+    padding: 24px;
+    width: 160px;
+    height: 55px;
+    top: 5px;
+    left: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #f7f7fb;
+    color: #19191b;
+  }
 }
 
 .footer {
- margin: 90px 0;
- display: flex;
- gap: 30px;
- justify-content: space-between;
-  
-Starter {
- width: 330;
-height: 441px
-border-radius: 10px;
-button {
- width: 285;
-height: 60;
-top: 354px;
-left: 24px;
-}
-}
-Premium {
- width: 376;
-height: 473;
-border-radius: 10px;
-color: #FF7143;
-button {
- width: 305;
-height: 60;
-top: 370px;
-left: 37px;
-}
-}
-.Enterprise {
- width: 330;
-height: 441;
-top: 2896px;
-left: 924px;
-button {
- width: 285;
-height: 60;
-top: 354px;
-left: 24px;
-}
-}
+  margin: 90px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+
+  .Starter {
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+
+    button {
+      width: 285px;
+      height: 60px;
+      top: 354px;
+      left: 24px;
+    }
+  }
+
+  .Premium {
+    width: 376px;
+    height: 473px;
+    border-radius: 10px;
+    color: #ff7143;
+
+    button {
+      width: 305px;
+      height: 60px;
+      top: 370px;
+      left: 37px;
+    }
+  }
+
+  .Enterprise {
+    width: 330px;
+    height: 441px;
+    top: 2896px;
+    left: 924px;
+
+    button {
+      width: 285px;
+      height: 60px;
+      top: 354px;
+      left: 24px;
+    }
+  }
 }
